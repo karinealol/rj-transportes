@@ -45,9 +45,9 @@ const Navbar = () => {
         </div>
       </header>
 
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-blue-900 text-white z-50">
-        <Tabs defaultValue={pathname} className="w-full">
-          <TabsList className="grid w-full grid-cols-3">
+      <nav className="md:hidden fixed bottom-0 left-0 right-0  text-white z-50 bg-white">
+        <Tabs defaultValue={pathname} className="w-ful h-16">
+          <TabsList className="grid bg-white w-full grid-cols-3">
             {navItems.map((item) => (
               <TabsTrigger
                 key={item.href}

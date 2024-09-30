@@ -60,7 +60,7 @@ export default function Alertas() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Input 
                 placeholder="Buscar por palavra-chave" 
-                className="flex-grow"
+                className="flex-grow text-[16px]"
               />
               <Select>
                 <SelectTrigger className="w-full sm:w-[180px]">

@@ -74,7 +74,7 @@ export default function Horarios() {
                 <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
                 <Input
                   placeholder="Número da linha ou nome da estação"
-                  className="pl-10 w-full"
+                  className="pl-10 w-full text-[16px]"
                 />
               </div>
               <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-colors">
